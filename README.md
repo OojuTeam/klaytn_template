@@ -11,8 +11,8 @@
 9. navigate to Klaytn IDE's > 'Deploy' and choose Environment (Baobab to test), click '+' to import Account
 10. (show how to set up or get Kaikas wallet + export private key)
 11. IF you chose the Baobab test environment, you can get 5 free KLAY from the Klay faucet (https://baobab.wallet.klaytn.com/)
-12. select Contract from dropdown, click Deploy (look at bottom, "creation of {contract name} pending...")
-13. click to open 'Deployed Contracts' section at bottom of left sidebar
+12. select Contract from "Contract" dropdown, then click Deploy (look at bottom, "creation of {contract name} pending...")
+13. click carrot icon on left side of 'Deployed Contracts' section in bottom left of screen
 14. set base URI (https://gateway.pinata.cloud/ipfs/CID_HERE/) - where "CID_HERE" is the json metadata ID (step 4)
 15. giveaway all assets (ASSET_LIMIT number) to yourself, any wallet is OK (must click to 'open' function so you can input 2 arguments! - wallet + qty)
 
