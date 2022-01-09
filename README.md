@@ -4,13 +4,14 @@
 2. upload folder of art to Pinata (folder should contain 1.png, 2.png, etc) and name it "{{ collection_name }} project images"
 3. copy image folder CID from Pinata, then create metadata files and add this CID to the "image" > REPLACE_ME field
 4. put all created files (e.g. 1, 2, 3 - no file extensions) inside a folder called "metadata" and upload this folder to Pinata, named "{{ collection_name }} project metadata"
-5. copy/paste smart contract code into IDE > File explorers and set variable (project title, token symbol name, ASSET_LIMIT to # of pieces)
-6. visit IDE > 'Compilers' and set config in sidebar (compiler version, language, evm version - cypress, choose contract from Dropdown)
-7. click to compile (await green check on left bar)
-8. visit IDE > 'Deploy' and choose Environment, import Account, select Contract from dropdown, click Deploy (look at bottom, "creation of {contract name} pending...")
-9. click to open 'Deployed Contracts' section at bottom of left sidebar
-10. set base URI (https://gateway.pinata.cloud/ipfs/CID_HERE/) - where "CID_HERE" is the json metadata ID (step 4)
-11. giveaway all assets (ASSET_LIMIT number) to yourself, any wallet is OK (must click to 'open' function so you can input 2 arguments! - wallet + qty)
+5. copy/paste smart contract code
+6. visit Klaytn IDE > File explorers tab and set variables (project title, token symbol name, ASSET_LIMIT to # of pieces)
+7. visit IDE > 'Compilers' and set config in sidebar (compiler version, language, evm version - cypress, choose contract from Dropdown)
+8. click to compile (await green check on left bar)
+9. visit IDE > 'Deploy' and choose Environment, import Account, select Contract from dropdown, click Deploy (look at bottom, "creation of {contract name} pending...")
+10. click to open 'Deployed Contracts' section at bottom of left sidebar
+11. set base URI (https://gateway.pinata.cloud/ipfs/CID_HERE/) - where "CID_HERE" is the json metadata ID (step 4)
+12. giveaway all assets (ASSET_LIMIT number) to yourself, any wallet is OK (must click to 'open' function so you can input 2 arguments! - wallet + qty)
 
 
 example made with this guide:
