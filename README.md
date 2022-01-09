@@ -14,7 +14,7 @@
 12. select Contract from "Contract" dropdown, then click Deploy (look at bottom, "creation of {contract name} pending...")
 13. click carrot icon on left side of 'Deployed Contracts' section in bottom left of screen
 14. copy this link (https://gateway.pinata.cloud/ipfs/CID_HERE/), then replace "CID_HERE" with the json metadata ID from step 4. paste this into the "setBaseURI" box on the bottom left of your Klaytn IDE. then click the orange "setBaseURI" button to execute.
-15. giveaway all assets (ASSET_LIMIT number) to yourself, any wallet is OK (must click to 'open' function so you can input 2 arguments! - wallet + qty)
+15. Copy the Kaikas wallet address that you want to own all the assets + the NFT collection. this could be the same wallet you deployed with, or another wallet address. next, click the down arrow next to the "giveaway" button, then input your wallet ID + the total number of assets.
 
 
 example made with this guide:
