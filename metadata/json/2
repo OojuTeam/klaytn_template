@@ -1,0 +1,17 @@
+{
+  "name": "Color #2",
+  "description": "This art is part of the Klaytn Template project, by Ooju.",
+  "image": "ipfs://QmQfWeBLDVoTnpY45u7cepR9ReYzX6M9orduh3vno4e5Cy/2.png",
+  "edition": 2,
+  "artist": "Ooju",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

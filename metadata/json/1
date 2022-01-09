@@ -1,0 +1,17 @@
+{
+  "name": "Color #1",
+  "description": "This art is part of the Klaytn Template project, by Ooju.",
+  "image": "ipfs://QmQfWeBLDVoTnpY45u7cepR9ReYzX6M9orduh3vno4e5Cy/1.png",
+  "edition": 1,
+  "artist": "Ooju",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Normal"
+    }
+  ]
+}

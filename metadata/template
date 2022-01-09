@@ -1,0 +1,35 @@
+{
+  "name": "Art #1",
+  "description": "This art is part of the Klaytn Template project, by Ooju.",
+  "image": "ipfs://REPLACE_ME/1.png",
+  "edition": 1,
+  "artist": "Ooju",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Normal"
+    }
+  ]
+}
+
+{
+  "name": "Art #2",
+  "description": "This art is part of the Klaytn Template project, by Ooju.",
+  "image": "ipfs://REPLACE_ME/1.png",
+  "edition": 2,
+  "artist": "Ooju",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}
