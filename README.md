@@ -3,7 +3,7 @@
 1. create art
 2. upload folder of art to Pinata (folder should contain 1.png, 2.png, etc) and name it "{{ collection_name }} project images"
 3. copy image folder CID from Pinata, then create metadata files and add this CID to the "image" > REPLACE_ME field
-4. upload metadata (folder of 1, 2, 3) - no file extensions
+4. put all "1, 2, 3" etc files inside a folder called "metadata" and upload to Pinata, named "{{ collection_name }} project metadata"
 5. copy/paste contract into IDE > File explorers and set variable (project title, token symbol name, ASSET_LIMIT to # of pieces)
 6. visit IDE > 'Compilers' and set config in sidebar (compiler version, language, evm version - cypress, choose contract from Dropdown)
 7. click to compile (await green check on left bar)
