@@ -1,7 +1,7 @@
 # Simple Klaytn Smart Contract for Artists
 
 1. create art
-2. upload folder of art to Pinata (folder should contain 1.png, 2.png, etc)
+2. upload folder of art to Pinata (folder should contain 1.png, 2.png, etc) and name it "collection_project_images"
 3. create metadata files + add art folder CID to each metadata's "image" field
 4. upload metadata (folder of 1, 2, 3) - no file extensions
 5. copy/paste contract into IDE > File explorers and set variable (project title, token symbol name, ASSET_LIMIT to # of pieces)
