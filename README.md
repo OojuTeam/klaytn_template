@@ -6,7 +6,7 @@
 4. put all created files (e.g. 1, 2, 3 - no file extensions) inside a folder called "metadata" and upload this folder to Pinata, named "{{ collection_name }} project metadata"
 5. copy/paste smart contract code
 6. visit Klaytn IDE > File explorers tab. click the 'document' icon above 'contracts' folder and name the project {{ ProjectName }} (no spaces). next, set variables (project title, token symbol name, ASSET_LIMIT to # of pieces)
-7. visit IDE > 'Compilers' and set config in sidebar (compiler version, language, evm version - cypress, choose contract from Dropdown)
+7. visit IDE > 'Compilers' and set config in sidebar (compiler version - 0.8.2, language, evm version - cypress, choose your contract from bottom of "Contract" dropdown)
 8. click to compile (await green check on left bar)
 9. visit IDE > 'Deploy' and choose Environment, import Account, select Contract from dropdown, click Deploy (look at bottom, "creation of {contract name} pending...")
 10. click to open 'Deployed Contracts' section at bottom of left sidebar
