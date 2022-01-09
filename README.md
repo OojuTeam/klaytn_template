@@ -16,6 +16,7 @@
 14. copy this link (https://gateway.pinata.cloud/ipfs/CID_HERE/), then replace "CID_HERE" with the json metadata ID from step 4. paste this into the "setBaseURI" box on the bottom left of your Klaytn IDE. then click the orange "setBaseURI" button to execute.
 15. Copy the Kaikas wallet address that you want to own all the assets + the NFT collection. this could be the same wallet you deployed with, or another wallet address. next, click the down arrow next to the "giveaway" button, then input your wallet ID + the total number of assets.
 16. visit the collection on opensea (testnet if you chose Baobab environment in step 9) by searching for the collection name, or trying your collection name with "-" instead of spaces (Ooju Klaytn Club => ooju-klaytn-club)
+17. inspect your collection to make sure images are appearing, traits are correct (on per artwork page), then add collection details and list your pieces for sale
 
 example made with this guide:
 https://baobab.scope.klaytn.com/nft/0xb914622459afe516fad7e9a1c280049f0addd8ed?tabId=nftTransfer
