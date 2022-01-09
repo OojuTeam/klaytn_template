@@ -17,10 +17,16 @@
 15. Copy the Kaikas wallet address that you want to own all the assets + the NFT collection. this could be the same wallet you deployed with, or another wallet address. next, click the down arrow next to the "giveaway" button, then input your wallet ID + the total number of assets.
 16. visit the collection on opensea (testnet if you chose Baobab environment in step 9) by searching for the collection name, or trying your collection name with "-" instead of spaces (Ooju Klaytn Club => ooju-klaytn-club)
 17. inspect your collection to make sure images are appearing, traits are correct (on per artwork page), then add collection details and list your pieces for sale
+18. if your collection details are correct, navigate back to the Klaytn IDE and restart from step 9, choosing "Cypress" as the environment instead of Baobab. reconnect your Kaikas wallet and click deploy, then follow steps 12+ onward. NOTE: this requires some klay token on the mainnet of your wallet.
 
-example made with this guide:
-https://baobab.scope.klaytn.com/nft/0xb914622459afe516fad7e9a1c280049f0addd8ed?tabId=nftTransfer
-https://testnets.opensea.io/collection/ooju-colors
+**examples made with this guide**
+test network
+  - collection: https://testnets.opensea.io/collection/ooju-colors
+  - contract: https://baobab.scope.klaytn.com/nft/0xb914622459afe516fad7e9a1c280049f0addd8ed?tabId=nftTransfer
+
+main network
+  - collection: https://opensea.io/collection/korean-flowers
+  - contract: https://scope.klaytn.com/account/0xeda6ab8f2984260ce2ba4788ef1101bec169ce26?tabId=txList
 
 wallet/creator:
 0x6602100da822774d732694D1a81DbFAC3ea51044 ("Smart Contract Owner")
